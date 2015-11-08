@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFE6A2471BEF9EFB00A3AAB7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6A2461BEF9EFB00A3AAB7 /* Utils.swift */; settings = {ASSET_TAGS = (); }; };
+		FFE6A2491BEF9F9E00A3AAB7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6A2481BEF9F9E00A3AAB7 /* Product.swift */; settings = {ASSET_TAGS = (); }; };
 		FFF5B3A61BD15388000EC146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5B3A51BD15388000EC146 /* AppDelegate.swift */; };
 		FFF5B3A81BD15388000EC146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5B3A71BD15388000EC146 /* ViewController.swift */; };
 		FFF5B3AB1BD15388000EC146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF5B3A91BD15388000EC146 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FFE6A2461BEF9EFB00A3AAB7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FFE6A2481BEF9F9E00A3AAB7 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		FFF5B3A21BD15388000EC146 /* SportsStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF5B3A51BD15388000EC146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF5B3A71BD15388000EC146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				FFF5B3AC1BD15388000EC146 /* Assets.xcassets */,
 				FFF5B3AE1BD15388000EC146 /* LaunchScreen.storyboard */,
 				FFF5B3B11BD15388000EC146 /* Info.plist */,
+				FFE6A2461BEF9EFB00A3AAB7 /* Utils.swift */,
+				FFE6A2481BEF9F9E00A3AAB7 /* Product.swift */,
 			);
 			path = SportsStore;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF5B3A81BD15388000EC146 /* ViewController.swift in Sources */,
+				FFE6A2491BEF9F9E00A3AAB7 /* Product.swift in Sources */,
 				FFF5B3A61BD15388000EC146 /* AppDelegate.swift in Sources */,
+				FFE6A2471BEF9EFB00A3AAB7 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +489,7 @@
 				FFF5B3CC1BD15388000EC146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF5B3CD1BD15388000EC146 /* Build configuration list for PBXNativeTarget "SportsStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				FFF5B3CF1BD15388000EC146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFF5B3D01BD15388000EC146 /* Build configuration list for PBXNativeTarget "SportsStoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				FFF5B3D21BD15388000EC146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
